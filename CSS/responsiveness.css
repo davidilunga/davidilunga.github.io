@@ -160,6 +160,10 @@
       scroll-margin-top: 6rem;
     }
 
+    .hero .btn-floating {
+      display: none;
+    }
+
     .btn-floating {
         font-size: 25px;
       }
