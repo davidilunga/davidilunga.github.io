@@ -1,0 +1,72 @@
+@import url(style.css);
+
+.search {
+  display: inline-block;
+  width: 80%;
+  margin: 25px 10% 20px;
+  height: 50px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-input {
+  color: white;
+  border: 0;
+  height: auto;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top: 5px;
+  caret-color: transparent;
+  line-height: 20px;
+  transition: width 0.4s linear
+}
+
+.search .search-input {
+  padding: 0 10px;
+  width: 100%;
+  caret-color: var(--brand-color);
+  font-weight: 300;
+  color: black;
+  transition: width 0.4s linear;
+}
+
+.search-icon{
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--brand-color);
+  font-size: 10px;
+  bottom: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.search-icon:hover{
+  background-color: var(--brand-color-dark);
+  color: #fff;
+}
+
+.clear-icon {
+  height: 34px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--brand-color);
+  bottom: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.clear-icon:hover{
+  background-color: var(--brand-color-dark);
+  color: #fff;
+}
