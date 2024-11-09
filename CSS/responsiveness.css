@@ -429,4 +429,9 @@
     .hero .container .row{
       margin-top: 1.5rem;
     }
+
+    footer div {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+    }
   }
