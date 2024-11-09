@@ -430,8 +430,7 @@
       margin-top: 1.5rem;
     }
 
-    footer div {
-      margin-top: 1.5rem;
-      margin-bottom: 1rem;
+    .bottom-tags{
+      display: none;
     }
   }
