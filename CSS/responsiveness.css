@@ -283,6 +283,10 @@
       min-height: 500px;
       max-height: 500px;
     }
+
+    .bottom-tags{
+      display: none;
+    }
   }
 
   @media screen and (max-width: 641px) {
@@ -422,6 +426,10 @@
     footer {
       display: block;
       padding: 0;
+    }
+
+    .bottom-tags{
+      display: none;
     }
   }
 
